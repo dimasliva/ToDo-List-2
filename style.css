@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to bottom, #27db81 0%, #1b85af 100%);
+}
+.wrapper {
+    background: white;
+    max-width: 480px;
+    width: 100%;
+    margin: 120px auto;
+    padding: 25px;
+}
+.wrapper header{
+    font-size: 40px;
+    font-weight: 600;
+}
+.wrapper .inputfield {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.inputfield input{
+    width: 85%;
+    font-size: 17px;
+    padding-left: 15px;
+    height: 55px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.inputfield button {
+    width: 55px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    background: #ae12d4;
+    cursor: pointer;
+    opacity: .6;
+    pointer-events: none;
+}
+.inputfield button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+.wrapper .todoList {
+    max-height: 250px;
+    overflow-y: auto;
+}
+.todoList li {
+    list-style: none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding-left: 15px;
+    line-height: 45px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: default;
+    overflow: hidden;
+}
+.todoList li:hover span{
+    right: 0;
+}
+.todoList span {
+    position: absolute;
+    right: -60px;
+    background: #ec2121;
+    width: 60px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.wrapper .footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer button {
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background: #ae12d4;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 16px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+.footer button.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #2be277 0%, #287be9 100%);
+}
+.wrapper{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 120px auto;
+    padding: 25px;
+    background: white;
+}
+.wrapper header{
+    font-size: 30px;
+    font-weight: 600;
+}
+.wrapper .inputfield{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    margin: 20px 0px;
+}
+.inputfield input{
+    width: 85%;
+    height: 100%;
+    border-radius: 3px;
+    border:1px solid #ccc;
+    padding-left: 15px;
+    font-size: 17px;
+    outline: none;
+}
+.inputfield button {
+    width: 50px;
+    margin-left: 5px;
+    font-size: 22px;
+    color: white;
+    background: #a24df1;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.wrapper .todoList{
+    max-height: 250px;
+    overflow-y: scroll;
+}
+.todoList li {
+    position: relative;
+    background: #f2f2f2;
+    list-style: none;
+    line-height: 45px;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    cursor: default;
+    overflow: hidden;
+}
+.todoList span {
+    position: absolute;
+    right: -45px;
+    width: 45px;
+    text-align: center;
+    color: white;
+    border-radius: 0 3px 3px 0;
+    background-color: #e74c3c;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+}
+.todoList li:hover span {
+    right: 0px;
+}
+.wrapper .footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+    align-items: center;
+}
+.footer button {
+    background: #a24df1;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}*/
